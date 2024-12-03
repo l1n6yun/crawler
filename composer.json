@@ -9,6 +9,9 @@
         "jaeger/querylist": "^4.4",
         "mongodb/mongodb": "^1.12"
     },
+    "suggest": {
+        "ext-swoole": "Required to use swoole engine."
+    },
     "autoload": {
         "psr-4": {
             "Crawler\\": "src/"
