@@ -1,0 +1,17 @@
+{
+    "name": "l1n6yun/crawler",
+    "description": "swoole crawler frame",
+    "keywords": ["swoole", "crawler", "crawler frame"],
+    "homepage": "https://github.com/l1n6yun/crawler",
+    "license": "MIT",
+    "authors": [{"name": "l1n6yun", "email": "l1n6yun@gmail.com"}],
+    "require": {
+        "jaeger/querylist": "^4.4",
+        "mongodb/mongodb": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crawler\\": "src/"
+        }
+    }
+}
